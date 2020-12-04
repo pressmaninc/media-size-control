@@ -1,0 +1,27 @@
+.mime-type-list table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  line-height: 2;
+  margin-bottom: 40px;
+  width: 100%;
+  word-break: break-word;
+}
+.mime-type-list tbody {
+  border-bottom: 1px solid black;
+}
+.mime-type-list td, .mime-type-list th {
+  text-align: left;
+}
+.mime-type-list td {
+  border-top: 1px solid black;
+  padding: 6px;
+}
+.mime-type-list th {
+  font-weight: 400;
+  padding: 0 6px;
+}
+.mime-type-list td:first-child, .mime-type-list th:first-child {
+  padding-left: 0;
+}
+
+/*# sourceMappingURL=media-size-control.css.map */
